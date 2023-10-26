@@ -1,5 +1,4 @@
 * {
-    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -77,4 +76,46 @@ header {
     font-weight: bold;
     font-size: 16px;
     border: none;
+}
+
+.gallery {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.gallery .gallery-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #5b5d5d;
+}
+
+.gallery .icons {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-bottom: 30px;
+}
+
+.icons ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.icons ul li {
+    text-align: center;
+    color: grey;
+}
+
+.icons ul li>*:first-child {
+    border: 4px solid rgb(186, 99, 113);
+    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 20px;
 }
