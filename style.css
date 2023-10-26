@@ -20,7 +20,7 @@ body {
 
 nav {
     display: flex;
-    background-color: rgb(232, 162, 174);
+    background-color: rgb(186, 99, 113);
     align-items: center;
     padding: 8px 200px;
 }
@@ -47,4 +47,34 @@ nav ul li {
     font-size: 18px;
     color: #E5E7EB;
     padding: 0 10px;
+}
+
+header {
+    display: flex;
+    padding: 100px 200px;
+    background-color: rgb(186, 99, 113);
+    gap: 50px;
+}
+
+.herosection .heading {
+    font-size: 46px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-bottom: 15px;
+}
+
+.herosection .subheading {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 20px;
+}
+
+.herosection button {
+    background-color: rgb(83, 126, 182);
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
 }
