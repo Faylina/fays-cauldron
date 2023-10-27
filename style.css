@@ -55,20 +55,20 @@ header {
     gap: 50px;
 }
 
-.herosection .heading {
+.hero-section .heading {
     font-size: 46px;
     font-weight: bolder;
     color: #F9FAF8;
     margin-bottom: 15px;
 }
 
-.herosection .subheading {
+.hero-section .subheading {
     font-size: 18px;
     color: #E5E7EB;
     margin-bottom: 20px;
 }
 
-.herosection button {
+.hero-section button {
     background-color: rgb(83, 126, 182);
     color: #F9FAF8;
     padding: 10px 20px;
