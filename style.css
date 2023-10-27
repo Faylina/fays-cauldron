@@ -128,7 +128,7 @@ header {
 }
 
 .quote-section blockquote {
-    font-size: 36px;
+    font-size: 34px;
     color: #2e2f30;
     font-weight: 100;
     font-style: italic;
@@ -217,4 +217,22 @@ header {
     font-weight: bold;
     font-size: 16px;
     align-self: center;
+}
+
+footer {
+    background-color: rgb(186, 99, 113);
+    color: #E5E7EB;
+    font-size: 18px;;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 8px;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
 }
