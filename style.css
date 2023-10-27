@@ -177,3 +177,44 @@ header {
     margin-top: 30px;
 }
 
+.call-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding: 125px 0;
+}
+
+.call-container {
+    width: 1000px;
+    background-color: rgb(186, 99, 113);
+    padding: 35px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.call-container ul {
+    width: 570px;
+    list-style: none;
+    color: #E5E7EB;
+    font-weight: lighter;
+}
+
+.call-container ul>*:first-child {
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 8px;
+}
+
+.call-container button {
+    background-color: rgb(186, 99, 113);
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    align-self: center;
+}
