@@ -83,7 +83,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 100px;
     gap: 50px;
 }
 
@@ -119,3 +119,61 @@ header {
     border-radius: 8px;
     padding: 20px;
 }
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;;
+    padding: 150px 200px;
+}
+
+.quote-section blockquote {
+    font-size: 36px;
+    color: #2e2f30;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.quote-section div {
+    font-size: 18px;
+    color: #2e2f30;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.testimonials {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    padding: 100px 0;
+    flex-direction: row-reverse;
+}
+
+.testimonials ul {
+    width: 300px;
+    list-style: none;
+    height: 415px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials ul li {
+    color: grey;
+    font-style: italic;
+    text-align: center;
+}
+
+.testimonials ul .text {
+    text-align: left;
+}
+
+.testimonials ul .cite {
+    margin-top: auto;
+}
+
+.testimonials ul li img {
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
