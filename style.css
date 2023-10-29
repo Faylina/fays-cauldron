@@ -300,7 +300,7 @@ button a {
 
 .call-container {
     width: 80%;
-    background-color: rgb(186, 99, 113);
+    background-color: rgb(83, 126, 182);
     padding: 25px;
     border-radius: 8px;
     display: flex;
@@ -324,7 +324,7 @@ button a {
 }
 
 .call-container button {
-    background-color: rgb(186, 99, 113);
+    background-color: rgb(83, 126, 182);
     border: 2px solid white;
     padding: 10px 20px;
     border-radius: 8px;
@@ -339,7 +339,7 @@ button a {
 
 .button-call:hover .change {
     background-color: white;
-    color: rgb(186, 99, 113);
+    color: rgb(83, 126, 182);
 }
 
 footer {
