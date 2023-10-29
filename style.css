@@ -39,7 +39,7 @@ nav img {
     border-radius: 30%;
 }
 
-.logo {
+.logo a {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -56,6 +56,15 @@ nav ul li {
     font-size: 18px;
     color: #E5E7EB;
     padding: 0 10px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+nav ul li a:hover {
+    text-decoration-line: underline;
 }
 
 header {
@@ -97,13 +106,21 @@ header img {
 
 .hero-section button {
     background-color: rgb(83, 126, 182);
-    color: #F9FAF8;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
     border: none;
     width: 150px;
+}
+
+button a {
+    color: white;
+}
+
+.button-header:hover .change {
+    background-color: white;
+    color: rgb(83, 126, 182);
 }
 
 .gallery {
@@ -257,12 +274,20 @@ header img {
 .call-container button {
     background-color: rgb(186, 99, 113);
     border: 2px solid white;
-    color: white;
     padding: 10px 20px;
     border-radius: 8px;
     font-weight: bold;
     font-size: 16px;
     align-self: center;
+}
+
+.call-container .button-call {
+    align-self: center;
+}
+
+.button-call:hover .change {
+    background-color: white;
+    color: rgb(186, 99, 113);
 }
 
 footer {
@@ -287,4 +312,8 @@ footer ul {
     display: flex;
     list-style: none;
     gap: 10px;
+}
+
+a {
+    text-decoration: none;
 }
