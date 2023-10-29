@@ -67,6 +67,39 @@ nav ul li a:hover {
     text-decoration-line: underline;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 170px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .7);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: rgb(186, 99, 113);
+    text-decoration: none;
+    display: block;
+    padding: 8px 8px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: rgba(186, 99, 113, 0.5);
+    color: white;
+    text-decoration: none;
+}
+
 header {
     display: flex;
     background-color: rgb(186, 99, 113);
